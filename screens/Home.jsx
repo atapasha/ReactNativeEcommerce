@@ -1,12 +1,18 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import Layout from "../components/Layouts/Layout";
-
+import Categories from "../components/category/Categories";
+import Banner from "../components/Banner/Banner";
+import Products from "../components/Products/Products";
+import Header from "../components/Layouts/Header";
 const Home = () => {
   return (
     <Layout>
+      <Categories />
+      <Header />
+
       <View style={styles.container}>
-        <Text>Home</Text>
+        <Products />
       </View>
     </Layout>
   );

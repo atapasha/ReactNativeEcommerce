@@ -4,6 +4,7 @@ import {
   TextInput,
   StyleSheet,
   TouchableOpacity,
+  Pressable,
 } from "react-native";
 import React, { useState } from "react";
 import FontAwsome from "react-native-vector-icons/FontAwesome";
@@ -22,7 +23,7 @@ const Header = () => {
           value={searchText}
           onChange={(text) => setSearchText(text)}
         />
-        <TouchableOpacity style={styles.searchBtn}>
+        <TouchableOpacity style={styles.searchBtn} onPress={handleSearch}>
           <FontAwsome name="search" style={styles.icon} />
         </TouchableOpacity>
       </View>
