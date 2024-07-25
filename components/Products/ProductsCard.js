@@ -42,7 +42,7 @@ const ProductsCard = ({ p }) => {
 
 const styles = StyleSheet.create({
   card: {
-    borderWith: 5,
+    borderWith: 1,
     borderColor: "#FF0000",
     marginHorizontal: 8,
     marginVertical: 5,
