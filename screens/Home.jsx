@@ -8,9 +8,8 @@ import Header from "../components/Layouts/Header";
 const Home = () => {
   return (
     <Layout>
-      <Categories />
       <Header />
-
+      <Categories />
       <View style={styles.container}>
         <Products />
       </View>

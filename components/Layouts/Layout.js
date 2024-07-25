@@ -18,15 +18,15 @@ const Layout = ({ children }) => {
 const styles = StyleSheet.create({
   footer: {
     display: "flex",
-    width: "100%",
+    width: "50%",
     felx: 1,
     justifyContent: "flex-end",
-    zIndex: 100,
+    zIndex: 111,
     borderWith: 1,
     borderColor: "ligthgray",
     positon: "absolute",
     bottom: 0,
-    padding: 10,
+    padding: 2,
   },
 });
 

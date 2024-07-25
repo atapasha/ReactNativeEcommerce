@@ -16,7 +16,7 @@ const Header = () => {
     console.log(searchText);
   };
   return (
-    <View style={{ height: 20 }}>
+    <View style={{ height: 100 }}>
       <View style={styles.container}>
         <TextInput
           style={styles.inputBox}
@@ -40,16 +40,16 @@ const styles = StyleSheet.create({
     paddingHorizontal: 0.5,
   },
   inputBox: {
-    borderWidth: 13,
-    width: "100%",
+    borderWidth: 4,
+    width: "97%",
     position: "absolute",
-    left: 15,
-    height: 40,
+    height: 31,
     color: "#000000",
     backgroundColor: "#ffffff",
     paddingLeft: 10,
     fontSize: 16,
     borderRadius: 5,
+    marginLeft: 3,
   },
 
   searchBtn: {

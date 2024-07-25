@@ -1,4 +1,4 @@
-export const produtsData = [
+export const ProdutsData = [
   {
     _id: 1,
     name: "Apple  IPHONE 15 ",
